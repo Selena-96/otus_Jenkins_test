@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Kyrales/vanessa-usher_mod/refs/heads/my_dev/resources/schema.json",
+  "agent": "gitsync",
+  "v8Version": "8.5.1.1150",
+  "defaultInfobase": {
+    "connectionString": "/FE:/Alena/1с базы/пустая база",
+    "auth": ""
+  },
+  "stages": {
+    "gitsync": true
+  },
+  "gitsync" : {
+    "timeout" : 60,
+    "configPath" : "./tools/gitsync_conf.json",
+    "auth" : "",
+    "useTemporaryInfobase" : false,
+    "tempPath" : ""
+  }
+}

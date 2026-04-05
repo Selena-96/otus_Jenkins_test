@@ -1,0 +1,47 @@
+{
+  "globals": {
+    "storage-user": "gitbot",
+    "storage-pwd": "1",
+    "git-path": "git",
+    "domain-email": "otus.ru",
+    "lic-try-count": 5,
+    "plugins": {
+      "enable": [
+        "check-authors",
+        "sync-remote",
+        "increment"
+      ]
+    },
+    "plugins-config": {
+      "push-n-commits": 0,
+      "push-tags": true,
+      "skip-exists-tags": false,
+      "rename-module": true,
+      "rename-form": true,
+      "push": true
+    }
+  },
+  "repositories": [
+    {
+      "name": "otus",
+      "path": "E:/Alena/1С Храны/Jenkins",
+      "dir": "E:/Alena/Git репозитории/Jenkins/src/cf",
+      "temp-dir": "",
+      "v8version": "8.5.1.1150",
+      "plugins-config": {
+        "URL": "https://github.com/Selena-96/otus_Jenkins_test.git"
+      }
+    },
+    {
+        "name": "YAXUNIT",
+        "extension": "YAXUNIT",
+        "path": "E:/Alena/1С Храны/Jenkins/Расширение YAXUnit",
+        "dir": "E:/Alena/Git репозитории/Jenkins/src/cfe/yaxunit",
+        "temp-dir": "",
+        "v8version": "8.5.1.1150",
+        "plugins-config": {
+          "URL": "https://github.com/Selena-96/otus_Jenkins_test.git"
+        }
+     }
+  ]
+}
