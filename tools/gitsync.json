@@ -3,7 +3,7 @@
   "agent": "gitsync",
   "v8Version": "8.5.1.1150",
   "defaultInfobase": {
-    "connectionString": "/FE:/Alena/1с базы/пустая база",
+    "connectionString": "/FE:/Alena/1C_bases/empty_base",
     "auth": ""
   },
   "stages": {
